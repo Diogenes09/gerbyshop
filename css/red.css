@@ -1,32 +1,76 @@
-.social {
-	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-	left: 0; /* Establecemos la barra en la izquierda */
-	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
-}
- 
-	.social ul {
-		list-style: none;
-	}
- 
-	.social ul li a {
-		display: inline-block;
-		color:#fff;
-		background: #000;
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-	}
- 
-	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	/*.social ul li .icon-twitter {background: #00abf0;}*/
-	/*.social ul li .icon-googleplus {background: #d95232;}*/
-	/*.social ul li .icon-pinterest {background: #ae181f;}*/
-	/*.social ul li .icon-mail {background: #666666;}*/
- 
-	.social ul li a:hover {
-		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-	}
+
+<style> 
+
+	/* Styling Body-part */ 
+	.body-part { 
+		width: 600px; 
+		height: 200px; 
+		border: 3px solid black; 
+		overflow: auto; 
+	} 
+	
+	h2 { 
+		color: green; 
+	} 
+	
+	/* Justifying Content text */ 
+	p { 
+		text-align: justify; 
+		margin: 40px; 
+	} 
+	
+	/* Styling icons */ 
+	.icon-list { 
+		position: fixed; 
+		top: 242px; 
+		right:40%; 
+		transform: translateY(-50%); 
+		
+	} 
+	
+	.icon-list a { 
+		display: block; 
+		text-align: center; 
+		padding: 8px; 
+		transition: all 0.5s ease; 
+		color: white; 
+		font-size: 20px; 
+		float:right; 
+	} 
+	
+	/* HOver affect on icons */ 
+	.icon-list a:hover { 
+		color: #000; 
+		width:50px; 
+	} 
+
+	/* Desingning each icons */ 
+	.instagram { 
+		background: #3f729b; 
+		color: white; 
+	} 
+	
+	.facebook { 
+		background: #3b5998; 
+		color: white; 
+	} 
+	
+	.twitter { 
+		background: #00acee; 
+		color: white; 
+	} 
+	.linkedin { 
+		background: #0e76a8; 
+		color: white; 
+	} 
+	
+	.google { 
+		background: #db4a39; 
+		color: white; 
+	} 
+	
+	.youtube { 
+		background: #c4302b; 
+		color: white; 
+	} 
+</style> 
